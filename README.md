@@ -1,8 +1,11 @@
 # Python with Docker
 
-The goal of this repo is run to a simple Python application within a container.
+The goal of this repo is to run simple Python code within containers.
 
-## Install Docker
+- Demo 1: processing example, a simple script.py to run.
+- Demo 2: app server example, running FastAPI with a single endpoint.
+
+## Prerequisite: Install Docker
 
 For simplicity I will use Docker and Docker Compose, but it is possible to use Podman and Podman Compose too.
 
@@ -26,7 +29,7 @@ bash 0-docker-install-ubuntu.sh
 - Option 1: Install Docker Desktop, which uses a Linux (QEMU) virtual machine: https://docs.docker.com/desktop/install/mac-install/
 
 
-## Python - Processing
+## Demo 1: Processing
 
 First enter the `processing_example` directory.
 
@@ -50,7 +53,7 @@ docker logs processing_script
 
 A file named `processed.csv` should be generated in the `output` directory.
 
-## Python - Application
+## Demo 2: Application
 
 First enter the `app_example` directory.
 
