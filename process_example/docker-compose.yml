@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  script:
+    container_name: processing_script
+    image: "processing-script:v1"
+    build: .
+    volumes:
+      - ./output:/code/output
