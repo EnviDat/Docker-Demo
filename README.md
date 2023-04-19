@@ -49,3 +49,31 @@ docker logs processing_script
 ```
 
 A file named `processed.csv` should be generated in the `output` directory.
+
+## Python - Application
+
+First enter the `app_example` directory.
+
+### Build the container
+
+```bash
+docker compose build
+```
+
+### Run the container
+
+```bash
+docker compose up -d
+```
+
+### Access the API server
+
+Go to localhost:9111 to view the served endpoint.
+
+### View the logs
+
+```bash
+docker logs app_server
+```
+
+You should see a log record of your visit to the root API page.

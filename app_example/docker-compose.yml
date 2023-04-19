@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  script:
+    container_name: app_server
+    image: "app-server:v1"
+    build:
+      context: .
+      target: prod
+    ports:
+      - "9111:8000"
+    restart: unless-stopped
