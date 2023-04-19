@@ -11,19 +11,19 @@ I would recommend using a Linux machine (or Windows Subsystem for Linux) for eas
 > Windows and MacOS do not fully support Docker or Podman natively.
 
 **Linux**
-Option 1: Use the install script provided under `scripts`.
+- Option 1: Use the install script provided under `scripts`.
 ```bash
 bash 0-docker-install-ubuntu.sh
 ```
-Option 2: Follow the install guide for your Linux distribution: https://docs.docker.com/engine/install/ubuntu/
+- Option 2: Follow the install guide for your Linux distribution: https://docs.docker.com/engine/install/ubuntu/
 
 **Windows**
-Option 1: Install Windows Subsystem of Linux, then use an install script under `scripts`, or follow the official docker install guide: https://docs.docker.com/engine/install/ubuntu/
-Option 2: Install Windows Subsystem of Linux, and use Docker Desktop.
-Option 3: Use Docker Desktop with the default Linux (QEMU) virtual machine.
+- Option 1: Install Windows Subsystem of Linux, then use an install script under `scripts`, or follow the official docker install guide: https://docs.docker.com/engine/install/ubuntu/
+- Option 2: Install Windows Subsystem of Linux, and use Docker Desktop.
+- Option 3: Use Docker Desktop with the default Linux (QEMU) virtual machine.
 
 **MacOS**
-Option 1: Install Docker Desktop, which uses a Linux (QEMU) virtual machine: https://docs.docker.com/desktop/install/mac-install/
+- Option 1: Install Docker Desktop, which uses a Linux (QEMU) virtual machine: https://docs.docker.com/desktop/install/mac-install/
 
 
 ## Python - Processing
